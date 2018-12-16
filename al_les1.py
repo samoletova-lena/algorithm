@@ -1,0 +1,16 @@
+first = 0
+lasttwo = 0
+second = 0
+third = 0
+number = 0
+summa = 0
+prod = 0
+number = int(input("Введите трехзначное число "))
+first = number // 100
+lasttwo = number % 100
+second = lasttwo // 10
+third = lasttwo % 10
+summa = first + second + third
+prod = first * second * third
+print ("Сумма =", summa)
+print ("Произведение =", prod)
